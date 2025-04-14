@@ -145,8 +145,8 @@ dependencies {
 // Uncomment the lines below if you wish to configure mixin. The mixin file should be named modid.mixins.json.
 
 mixin {
-    add sourceSets.main, "${mod_id}.refmap.json"
-    config "${mod_id}.mixins.json"
+    //add sourceSets.main, "${mod_id}.refmap.json"
+    //config "${mod_id}.mixins.json"
 }
 
 dependencies {

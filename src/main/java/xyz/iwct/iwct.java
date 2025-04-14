@@ -1,4 +1,4 @@
-package xyz.bedly_nerfed_sleeping;
+package xyz.iwct;
 
 import net.minecraftforge.fml.common.Mod;
 
@@ -11,7 +11,7 @@ import com.mojang.logging.LogUtils;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(bedly_nerfed_sleeping.MODID)
+@Mod(iwct.MODID)
 public class iwct
 {
     public static final String MODID = "iwct";
@@ -23,7 +23,7 @@ public class iwct
 
    public static final Logger LOGGER = LogUtils.getLogger();
 
-    public bedly_nerfed_sleeping()
+    public iwct()
     {
         LOGGER.info("slf4j!");
     }
